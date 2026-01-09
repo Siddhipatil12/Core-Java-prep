@@ -1,0 +1,68 @@
+// // import java.util.*;
+
+// public class MinMax {
+//     public static void main(String args[]) {
+
+//         Scanner sc = new Scanner(System.in);
+
+//         // Read size of array
+//         int size = sc.nextInt();
+//         int num[] = new int[size];
+
+//         // Read array elements
+//         for (int i = 0; i < size; i++) {
+//             num[i] = sc.nextInt();
+//         }
+
+//         // Initialize min and max
+//         int min = Integer.MAX_VALUE;
+//         int max = Integer.MIN_VALUE;
+
+//         // Find min and max
+//         for (int i = 0; i < num.length; i++) {
+//             if (num[i] < min) {
+//                 min = num[i];
+//             }
+//             if (num[i] > max) {
+//                 max = num[i];
+//             }
+//         }
+
+//         // Print result
+//         System.out.println("min is: " + min);
+//         System.out.println("max is: " + max);
+
+//         sc.close();
+//     }
+// }
+import java.util.*;
+
+public class minmax {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+
+        int size = sc.nextInt();
+        int num[] = new int[size];
+
+        for (int i = 0; i < size; i++) {
+            num[i] = sc.nextInt();
+        }
+
+        int min = num[0];
+        int max = num[0];
+
+        for (int i = 1; i < num.length; i++) {
+            if (num[i] < min) {
+                min = num[i];
+            }
+            if (num[i] > max) {
+                max = num[i];
+            }
+        }
+
+        System.out.println("min is: " + min);
+        System.out.println("max is: " + max);
+
+        sc.close();
+    }
+}
