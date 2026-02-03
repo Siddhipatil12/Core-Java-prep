@@ -1,7 +1,7 @@
 # Core Java & DSA Preparation 🚀
 
 This repository contains my daily practice for Core Java and
-Data Structures & Algorithms, focused on SDE interviews (Amazon & MNCs).
+Data Structures & Algorithms, focused on SDE interviews.
 
 ## Folder Structure
 
